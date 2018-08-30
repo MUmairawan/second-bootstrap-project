@@ -1,0 +1,203 @@
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+header .transparent {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .navbar-toggler-icon {
+    border: 3px solid black;
+    padding: 20px;
+    background: #F15025;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #F15025 !important;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.nav-link:hover {
+    color: whitesmoke !important;
+}
+
+header {
+    height: 100vh;
+
+    background: url(../images/2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-center {
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner-underline {
+    width: 300px;
+    border: 3px solid #F15025;
+    margin: 20px auto;
+}
+
+.banner-center a {
+    font-size: 30px;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.banner-center a:hover,
+banner-center a:focus {
+    background-color: whitesmoke;
+    color: #F15025;
+}
+
+/*end of header section*/
+
+/*start of skills section*/
+
+.title {
+    margin: 20px 0;
+}
+
+.skills-underline {
+    width: 150px;
+    border: 3px solid #F15025;
+    margin: 0 auto 10px auto;
+
+}
+
+#skills {
+    padding: 30px;
+    color: #2D3142;
+    margin-bottom: 10px;
+}
+
+#skills .fa {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+#skills a {
+    margin-bottom: 10px;
+    background-color: #F15025;
+    color: whitesmoke;
+}
+
+#skills a:hover,
+#skills a:focus {
+    background: #CED0EC;
+    color: #F15025;
+}
+
+/*end of skills section*/
+
+/*start of about section*/
+
+.about-underline {
+    width: 150px;
+    border: 3px solid #F15025;
+    margin: 0 auto 10px auto;
+
+}
+
+#about {
+    background-color: #2D3142;
+}
+
+#about .pic {
+    height: 600px;
+    background: url(../images/4.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #2D3142;
+}
+
+#about .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*end of about section*/
+
+/*start of contact section*/
+
+#contact {
+    padding: 30px;
+    background-color: whitesmoke;
+}
+
+#contact .form-control {
+    font-size: 20px;
+    border-radius: 0 !important;
+}
+
+#contact button {
+    background-color: #353531;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+#contact button:hover {
+    background-color: #CED0EC;
+    color: #F15025;
+}
+
+/*end of contact section*/
+
+/*start of footer section*/
+
+#footer {
+    padding: 40px;
+    background: #353531;
+    color: whitesmoke;
+}
+
+.footer-icons {
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.footer-icons a:hover {
+    color: #F15025;
+}
+
+#footer .copyright {
+    padding-top: 40px;
+    color: #CED0CE;
+}
+
+/*end of footer section*/
+
+@media only screen and (max-width:321px) {
+    #size1 {
+        font-size: 30px;
+    }
+    #size2 {
+        width: 150px;
+    }
+    .banner-center a {
+        width: 150px;
+    }
